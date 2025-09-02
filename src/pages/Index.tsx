@@ -7,6 +7,7 @@ import heroImage from "@/assets/hero-image.jpg";
 import { DonorDashboard } from "@/components/DonorDashboard";
 import { RecipientDashboard } from "@/components/RecipientDashboard";
 import { AdminDashboard } from "@/components/AdminDashboard";
+import { Link } from "react-router-dom";
 
 type UserRole = 'guest' | 'donor' | 'recipient' | 'ngo-admin' | 'platform-admin';
 
@@ -127,6 +128,9 @@ const Index = () => {
                 I Need Food
               </Button>
             </div>
+            <p className="text-white/90">
+              Already have an account? <Link to="/auth" className="underline underline-offset-4">Sign in or create one</Link>
+            </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
               {stats.map((stat, index) => (
