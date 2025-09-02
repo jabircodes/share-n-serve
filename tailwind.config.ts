@@ -24,18 +24,33 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				// Share-n-Serve Brand Colors
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
+					glow: 'hsl(var(--primary-glow))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
+					light: 'hsl(var(--secondary-light))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
+				trust: {
+					DEFAULT: 'hsl(var(--trust))',
+					light: 'hsl(var(--trust-light))',
+					foreground: 'hsl(var(--trust-foreground))'
+				},
+				
+				// Status & Feedback
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))',
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
+				
+				// Interface Elements
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
