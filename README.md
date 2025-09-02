@@ -1,6 +1,6 @@
 ## Project info
 
-**URL**: https://github.com/jabircodes/share-n-serve
+**LIVE WEBSITE URL**: (https://share-n-serve.lovable.app)
 
 
 **Use your preferred IDE**
